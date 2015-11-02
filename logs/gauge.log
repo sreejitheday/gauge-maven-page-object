@@ -1,0 +1,1683 @@
+13:45:53.593 [INFO]  create  manifest.json
+13:45:53.603 [INFO]  skip  manifest.json
+13:45:53.629 [INFO]  create  specs
+13:45:53.629 [INFO]  skip  specs
+13:45:53.635 [INFO]  create  specs/hello_world.spec
+13:45:53.635 [INFO]  skip  specs/hello_world.spec
+13:45:53.635 [INFO]  create  env
+13:45:53.635 [INFO]  create  env/default
+13:45:53.636 [INFO]  create  env/default/default.properties
+13:45:54.065 [INFO] 
+Successfully initialized the project. Run specifications with "gauge specs/"
+13:45:54.204 [INFO] Failed to start javac.exe. exec: "javac.exe": executable file not found in %!P(MISSING)ATH%!
+(MISSING)
+13:45:54.211 [DEBUG] Runner exited with error: exit status 1
+13:45:54.211 [DEBUG] Runner connection error: Runner exited with error: exit status 1
+13:45:54.211 [DEBUG] Error while killing runner: invalid argument
+18:08:00.356 [INFO] Executing specification: Specification Heading
+18:08:00.414 [INFO] Executing scenario: PG Home Page Verification
+18:08:00.414 [DEBUG] Executing Step: * Open PG Site
+18:08:02.181 [ERROR] Failed step: Open PG Site
+18:08:02.181 [ERROR] Error Message: java.lang.NullPointerException
+18:08:02.181 [ERROR] Stacktrace: com.Pages.PropertyGuruHomePage.nagivateToHomePage(PropertyGuruHomePage.java:51)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	java.lang.reflect.Method.invoke(Unknown Source)
+	com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:96)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+	com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+	com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+	com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+	com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+	com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+	
+18:08:03.082 [DEBUG] Plugin [Html Report] with pid [13408] has exited
+18:08:03.082 [INFO] Specifications: 	1 executed, 0 passed, 1 failed, 0 skipped
+18:08:03.082 [INFO] Scenarios: 	1 executed, 0 passed, 1 failed, 0 skipped
+18:08:03.082 [INFO] Total time taken: 1.99s
+18:15:41.503 [INFO] Executing specification: Specification Heading
+18:15:41.504 [INFO] Executing scenario: PG Home Page Verification
+18:15:41.505 [DEBUG] Executing Step: * Open PG Site
+18:16:00.721 [DEBUG] Executing Step: * Verify the page title
+18:16:00.805 [INFO] Reached here
+18:16:00.805 [INFO] 
+18:16:01.749 [DEBUG] Plugin [Html Report] with pid [11488] has exited
+18:16:02.356 [INFO] Specifications: 	1 executed, 1 passed, 0 failed, 0 skipped
+18:16:02.356 [INFO] Scenarios: 	1 executed, 1 passed, 0 failed, 0 skipped
+18:16:02.356 [INFO] Total time taken: 19.95s
+18:34:16.967 [INFO] Executing specification: Specification Heading
+18:34:16.968 [INFO] Executing scenario: PG Home Page Verification
+18:34:16.969 [DEBUG] Executing Step: * Open PG Site
+18:34:29.665 [DEBUG] Executing Step: * Verify the page title
+18:34:29.668 [INFO] Reached here
+18:34:29.668 [INFO] 
+18:34:30.290 [DEBUG] Plugin [Html Report] with pid [7280] has exited
+18:34:30.892 [INFO] Specifications: 	1 executed, 1 passed, 0 failed, 0 skipped
+18:34:30.892 [INFO] Scenarios: 	1 executed, 1 passed, 0 failed, 0 skipped
+18:34:30.892 [INFO] Total time taken: 13.232s
+18:45:08.359 [INFO] Executing specification: Specification Heading
+18:45:08.411 [INFO] Executing scenario: PG Home Page Verification
+18:45:08.432 [DEBUG] Executing Step: * Open PG Site
+18:45:08.760 [INFO] java.lang.IllegalAccessException: Class seleniumFrameWork.BasePage can not access a member of class com.Pages.PropertyGuruHomePage with modifiers "private final"
+18:45:08.760 [INFO] 
+18:45:08.760 [INFO] 	at sun.reflect.Reflection.ensureMemberAccess(Unknown Source)
+18:45:08.760 [INFO] 
+	at java.lang.reflect.AccessibleObject.slowCheckMemberAccess(Unknown Source)
+	at java.lang.reflect.AccessibleObject.checkAccess(Unknown Source)
+18:45:08.760 [INFO] 
+	at java.lang.reflect.Field.set(Unknown Source)
+18:45:08.760 [INFO] 	at seleniumFrameWork.BasePage.initialiazePageObjects(BasePage.java:47)
+18:45:08.760 [INFO] 
+	at com.Pages.PropertyGuruHomePage.<init>(PropertyGuruHomePage.java:28)
+18:45:08.760 [INFO] 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+18:45:08.760 [INFO] 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+18:45:08.760 [INFO] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+18:45:08.760 [INFO] 
+	at java.lang.Class.newInstance(Unknown Source)
+18:45:08.760 [INFO] 	at com.thoughtworks.gauge.ClassInstanceManager.get(ClassInstanceManager.java:34)
+18:45:08.760 [INFO] 	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:30)
+18:45:08.760 [INFO] 	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:96)
+18:45:08.760 [INFO] 	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+18:45:08.760 [INFO] 
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+18:45:08.760 [INFO] 	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+18:45:08.760 [INFO] 
+18:45:08.761 [INFO] 	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+18:45:08.761 [INFO] 
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+	at com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+18:45:08.761 [INFO] 
+	at com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+18:45:10.280 [ERROR] Failed step: Open PG Site
+18:45:10.280 [ERROR] Error Message: java.lang.NullPointerException
+18:45:10.280 [ERROR] Stacktrace: com.Pages.PropertyGuruHomePage.nagivateToHomePage(PropertyGuruHomePage.java:58)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	java.lang.reflect.Method.invoke(Unknown Source)
+	com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:96)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+	com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+	com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+	com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+	com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+	com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+	
+18:45:10.736 [DEBUG] Plugin [Html Report] with pid [5616] has exited
+18:45:11.437 [INFO] Specifications: 	1 executed, 0 passed, 1 failed, 0 skipped
+18:45:11.437 [INFO] Scenarios: 	1 executed, 0 passed, 1 failed, 0 skipped
+18:45:11.437 [INFO] Total time taken: 9.744s
+19:14:46.469 [INFO] Executing specification: Specification Heading
+19:14:46.471 [INFO] Executing scenario: PG Home Page Verification
+19:14:46.472 [DEBUG] Executing Step: * Open PG Site
+19:14:46.659 [INFO] java.lang.IllegalAccessException: Class seleniumFrameWork.BasePage can not access a member of class com.Pages.PropertyGuruHomePage with modifiers "private final"
+19:14:46.659 [INFO] 
+19:14:46.659 [INFO] 	at sun.reflect.Reflection.ensureMemberAccess(Unknown Source)
+19:14:46.659 [INFO] 
+	at java.lang.reflect.AccessibleObject.slowCheckMemberAccess(Unknown Source)
+19:14:46.659 [INFO] 
+	at java.lang.reflect.AccessibleObject.checkAccess(Unknown Source)
+19:14:46.659 [INFO] 	at java.lang.reflect.Field.set(Unknown Source)
+	at seleniumFrameWork.BasePage.initialiazePageObjects(BasePage.java:47)
+19:14:46.659 [INFO] 
+	at com.Pages.PropertyGuruHomePage.<init>(PropertyGuruHomePage.java:28)
+19:14:46.659 [INFO] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+19:14:46.659 [INFO] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+19:14:46.659 [INFO] 	at java.lang.Class.newInstance(Unknown Source)
+19:14:46.659 [INFO] 	at com.thoughtworks.gauge.ClassInstanceManager.get(ClassInstanceManager.java:34)
+19:14:46.659 [INFO] 	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:30)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:96)
+19:14:46.659 [INFO] 
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+19:14:46.659 [INFO] 	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+19:14:46.659 [INFO] 
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+19:14:46.659 [INFO] 
+19:14:46.659 [INFO] 	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+19:14:46.659 [INFO] 
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+19:14:46.660 [INFO] 	at com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	at com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+19:14:47.061 [ERROR] Failed step: Open PG Site
+19:14:47.061 [ERROR] Error Message: java.lang.NullPointerException
+19:14:47.061 [ERROR] Stacktrace: com.Pages.PropertyGuruHomePage.nagivateToHomePage(PropertyGuruHomePage.java:57)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	java.lang.reflect.Method.invoke(Unknown Source)
+	com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:96)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+	com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+	com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+	com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+	com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+	com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+	
+19:14:47.206 [DEBUG] Plugin [Html Report] with pid [7400] has exited
+19:14:48.219 [INFO] Specifications: 	1 executed, 0 passed, 1 failed, 0 skipped
+19:14:48.219 [INFO] Scenarios: 	1 executed, 0 passed, 1 failed, 0 skipped
+19:14:48.219 [INFO] Total time taken: 6.147s
+19:15:51.104 [INFO] Executing specification: Specification Heading
+19:15:51.106 [INFO] Executing scenario: PG Home Page Verification
+19:15:51.107 [DEBUG] Executing Step: * Open PG Site
+19:15:51.271 [INFO] java.lang.IllegalAccessException: Class seleniumFrameWork.BasePage can not access a member of class com.Pages.PropertyGuruHomePage with modifiers "private"
+19:15:51.271 [INFO] 
+19:15:51.271 [INFO] 	at sun.reflect.Reflection.ensureMemberAccess(Unknown Source)
+19:15:51.271 [INFO] 
+19:15:51.271 [INFO] 	at java.lang.reflect.AccessibleObject.slowCheckMemberAccess(Unknown Source)
+19:15:51.271 [INFO] 	at java.lang.reflect.AccessibleObject.checkAccess(Unknown Source)
+	at java.lang.reflect.Field.set(Unknown Source)
+19:15:51.271 [INFO] 
+19:15:51.271 [INFO] 	at seleniumFrameWork.BasePage.initialiazePageObjects(BasePage.java:47)
+	at com.Pages.PropertyGuruHomePage.<init>(PropertyGuruHomePage.java:28)
+19:15:51.271 [INFO] 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+19:15:51.271 [INFO] 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+19:15:51.271 [INFO] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+19:15:51.271 [INFO] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+19:15:51.271 [INFO] 	at java.lang.Class.newInstance(Unknown Source)
+	at com.thoughtworks.gauge.ClassInstanceManager.get(ClassInstanceManager.java:34)
+19:15:51.271 [INFO] 
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:30)
+19:15:51.271 [INFO] 
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:96)
+19:15:51.271 [INFO] 
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+19:15:51.271 [INFO] 	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+19:15:51.272 [INFO] 	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+19:15:51.272 [INFO] 	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+19:15:51.272 [INFO] 
+19:15:51.272 [INFO] 	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+19:15:51.272 [INFO] 
+	at com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	at com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+19:15:51.272 [INFO] 
+19:15:51.636 [ERROR] Failed step: Open PG Site
+19:15:51.637 [ERROR] Error Message: java.lang.NullPointerException
+19:15:51.637 [ERROR] Stacktrace: com.Pages.PropertyGuruHomePage.nagivateToHomePage(PropertyGuruHomePage.java:57)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	java.lang.reflect.Method.invoke(Unknown Source)
+	com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:96)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+	com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+	com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+	com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+	com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+	com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+	
+19:15:51.762 [DEBUG] Plugin [Html Report] with pid [10828] has exited
+19:15:52.765 [INFO] Specifications: 	1 executed, 0 passed, 1 failed, 0 skipped
+19:15:52.765 [INFO] Scenarios: 	1 executed, 0 passed, 1 failed, 0 skipped
+19:15:52.765 [INFO] Total time taken: 6.283s
+19:16:39.822 [INFO] Executing specification: Specification Heading
+19:16:39.824 [INFO] Executing scenario: PG Home Page Verification
+19:16:39.825 [DEBUG] Executing Step: * Open PG Site
+19:16:40.336 [INFO] java.lang.IllegalAccessException: Class seleniumFrameWork.BasePage can not access a member of class com.Pages.PropertyGuruHomePage with modifiers ""
+19:16:40.336 [INFO] 
+19:16:40.337 [INFO] 	at sun.reflect.Reflection.ensureMemberAccess(Unknown Source)
+19:16:40.337 [INFO] 
+	at java.lang.reflect.AccessibleObject.slowCheckMemberAccess(Unknown Source)
+	at java.lang.reflect.AccessibleObject.checkAccess(Unknown Source)
+19:16:40.337 [INFO] 
+	at java.lang.reflect.Field.set(Unknown Source)
+19:16:40.337 [INFO] 	at seleniumFrameWork.BasePage.initialiazePageObjects(BasePage.java:47)
+19:16:40.337 [INFO] 
+	at com.Pages.PropertyGuruHomePage.<init>(PropertyGuruHomePage.java:28)
+19:16:40.337 [INFO] 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+19:16:40.337 [INFO] 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+19:16:40.337 [INFO] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+19:16:40.337 [INFO] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+19:16:40.337 [INFO] 	at java.lang.Class.newInstance(Unknown Source)
+19:16:40.337 [INFO] 	at com.thoughtworks.gauge.ClassInstanceManager.get(ClassInstanceManager.java:34)
+19:16:40.337 [INFO] 	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:30)
+19:16:40.337 [INFO] 	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:96)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+19:16:40.337 [INFO] 
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+19:16:40.337 [INFO] 	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+19:16:40.337 [INFO] 	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+19:16:40.337 [INFO] 
+19:16:40.337 [INFO] 	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+19:16:40.337 [INFO] 
+19:16:40.337 [INFO] 	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+19:16:40.337 [INFO] 
+19:16:40.338 [INFO] 	at com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+19:16:40.338 [INFO] 
+19:16:40.338 [INFO] 	at com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+19:16:40.338 [INFO] 
+19:16:40.670 [ERROR] Failed step: Open PG Site
+19:16:40.670 [ERROR] Error Message: java.lang.NullPointerException
+19:16:40.670 [ERROR] Stacktrace: com.Pages.PropertyGuruHomePage.nagivateToHomePage(PropertyGuruHomePage.java:57)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	java.lang.reflect.Method.invoke(Unknown Source)
+	com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:96)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+	com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+	com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+	com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+	com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+	com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+	
+19:16:40.915 [DEBUG] Plugin [Html Report] with pid [9488] has exited
+19:16:41.917 [INFO] Specifications: 	1 executed, 0 passed, 1 failed, 0 skipped
+19:16:41.917 [INFO] Scenarios: 	1 executed, 0 passed, 1 failed, 0 skipped
+19:16:41.917 [INFO] Total time taken: 6.325s
+19:20:32.534 [INFO] Executing specification: Specification Heading
+19:20:32.535 [INFO] Executing scenario: PG Home Page Verification
+19:20:32.536 [DEBUG] Executing Step: * Open PG Site
+19:20:33.041 [ERROR] Failed step: Open PG Site
+19:20:33.042 [ERROR] Error Message: java.lang.NullPointerException
+19:20:33.042 [ERROR] Stacktrace: com.Pages.PropertyGuruHomePage.nagivateToHomePage(PropertyGuruHomePage.java:57)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	java.lang.reflect.Method.invoke(Unknown Source)
+	com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:96)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+	com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+	com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+	com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+	com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+	com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+	
+19:20:33.171 [DEBUG] Plugin [Html Report] with pid [10340] has exited
+19:20:34.172 [INFO] Specifications: 	1 executed, 0 passed, 1 failed, 0 skipped
+19:20:34.172 [INFO] Scenarios: 	1 executed, 0 passed, 1 failed, 0 skipped
+19:20:34.172 [INFO] Total time taken: 5.982s
+19:21:34.906 [INFO] Executing specification: Specification Heading
+19:21:34.908 [INFO] Executing scenario: PG Home Page Verification
+19:21:34.909 [DEBUG] Executing Step: * Open PG Site
+19:21:47.022 [DEBUG] Executing Step: * Verify the page title
+19:21:47.023 [INFO] Reached here
+19:21:47.024 [INFO] 
+19:21:47.865 [DEBUG] Plugin [Html Report] with pid [7764] has exited
+19:21:48.466 [INFO] Specifications: 	1 executed, 1 passed, 0 failed, 0 skipped
+19:21:48.466 [INFO] Scenarios: 	1 executed, 1 passed, 0 failed, 0 skipped
+19:21:48.466 [INFO] Total time taken: 18.489s
+19:46:42.314 [INFO] Executing specification: Specification Heading
+19:46:42.316 [INFO] Executing scenario: Enter Invalid Credential and verify that login failed
+19:46:42.346 [DEBUG] Executing Step: * Given I am on "www.gmail.com" page
+19:46:43.621 [ERROR] Failed step: Given I am on "www.gmail.com" page
+19:46:43.621 [ERROR] Error Message: org.openqa.selenium.WebDriverException: f.QueryInterface is not a function
+Command duration or timeout: 136 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'jithu', ip: '192.168.1.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=35.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4aa89dbf-c481-4742-9844-3dee50f11205
+19:46:43.621 [ERROR] Stacktrace: sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	java.lang.reflect.Constructor.newInstance(Unknown Source)
+	org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:311)
+	GmailInvalidLogin.navigateToPage(GmailInvalidLogin.java:21)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	java.lang.reflect.Method.invoke(Unknown Source)
+	com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+	com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+	com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+	com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+	com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+	com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+	
+19:46:43.741 [DEBUG] Plugin [Html Report] with pid [1988] has exited
+19:46:44.349 [INFO] Specifications: 	1 executed, 0 passed, 1 failed, 0 skipped
+19:46:44.349 [INFO] Scenarios: 	1 executed, 0 passed, 1 failed, 0 skipped
+19:46:44.349 [INFO] Total time taken: 7.526s
+19:47:26.614 [INFO] Executing specification: Specification Heading
+19:47:26.616 [INFO] Executing scenario: Enter Invalid Credential and verify that login failed
+19:47:26.616 [DEBUG] Executing Step: * Given I am on "http://www.gmail.com" page
+19:47:28.569 [DEBUG] Executing Step: * Then I enter the user name as "testuser"
+19:47:28.620 [INFO] java.io.FileNotFoundException: .\Asset\GmailLoginPage.yaml (The system cannot find the file specified)
+19:47:28.620 [INFO] 
+19:47:28.620 [INFO] 	at java.io.FileInputStream.open0(Native Method)
+19:47:28.620 [INFO] 
+	at java.io.FileInputStream.open(Unknown Source)
+19:47:28.620 [INFO] 
+	at java.io.FileInputStream.<init>(Unknown Source)
+19:47:28.620 [INFO] 	at java.io.FileInputStream.<init>(Unknown Source)
+19:47:28.620 [INFO] 	at seleniumFrameWork.BasePage.getHtmlResourceLocators(BasePage.java:29)
+19:47:28.620 [INFO] 	at com.Pages.GmailLoginPage.getPage(GmailLoginPage.java:25)
+	at com.Pages.GmailLoginPage.setUserNameTextFiled(GmailLoginPage.java:44)
+19:47:28.620 [INFO] 
+	at GmailInvalidLogin.enterUserName(GmailInvalidLogin.java:27)
+19:47:28.620 [INFO] 
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+19:47:28.621 [INFO] 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+19:47:28.621 [INFO] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+19:47:28.621 [INFO] 	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+19:47:28.621 [INFO] 
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+19:47:28.621 [INFO] 
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+19:47:28.621 [INFO] 	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+19:47:28.621 [INFO] 	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+19:47:28.640 [INFO] 	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+	at com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	at com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+19:47:28.661 [INFO] java.lang.NullPointerException
+19:47:28.662 [INFO] 
+	at seleniumFrameWork.BasePage.initialiazePageObjects(BasePage.java:50)
+	at com.Pages.GmailLoginPage.getPage(GmailLoginPage.java:26)
+19:47:28.662 [INFO] 
+	at com.Pages.GmailLoginPage.setUserNameTextFiled(GmailLoginPage.java:44)
+	at GmailInvalidLogin.enterUserName(GmailInvalidLogin.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+19:47:28.662 [INFO] 
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+19:47:28.662 [INFO] 	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+19:47:28.662 [INFO] 	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+19:47:28.662 [INFO] 	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+19:47:28.662 [INFO] 
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+19:47:28.662 [INFO] 
+19:47:28.662 [INFO] 	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+19:47:28.662 [INFO] 	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+19:47:28.662 [INFO] 
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+19:47:28.662 [INFO] 
+19:47:28.662 [INFO] 	at com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+19:47:28.662 [INFO] 	at com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+19:47:28.662 [INFO] 
+19:47:29.028 [ERROR] Failed step: Then I enter the user name as "testuser"
+19:47:29.028 [ERROR] Error Message: java.lang.NullPointerException
+19:47:29.028 [ERROR] Stacktrace: com.Pages.GmailLoginPage.setUserNameTextFiled(GmailLoginPage.java:44)
+	GmailInvalidLogin.enterUserName(GmailInvalidLogin.java:27)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	java.lang.reflect.Method.invoke(Unknown Source)
+	com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+	com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+	com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+	com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+	com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+	com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+	
+19:47:29.258 [DEBUG] Plugin [Html Report] with pid [2260] has exited
+19:47:30.261 [INFO] Specifications: 	1 executed, 0 passed, 1 failed, 0 skipped
+19:47:30.261 [INFO] Scenarios: 	1 executed, 0 passed, 1 failed, 0 skipped
+19:47:30.261 [INFO] Total time taken: 7.625s
+19:59:51.425 [INFO] Executing specification: Specification Heading
+19:59:51.427 [INFO] Executing scenario: Enter Invalid Credential and verify that login failed
+19:59:51.428 [DEBUG] Executing Step: * Given I am on "http://www.gmail.com" page
+19:59:52.733 [DEBUG] Executing Step: * Then I enter the user name as "jithumangad"
+19:59:52.853 [INFO] java.lang.IllegalArgumentException: Can not set seleniumFrameWork.Button field com.Pages.GmailLoginPage.loginButton to seleniumFrameWork.WebElementWrapper
+19:59:52.853 [INFO] 
+19:59:52.853 [INFO] 	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+19:59:52.853 [INFO] 
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+	at sun.reflect.UnsafeObjectFieldAccessorImpl.set(Unknown Source)
+19:59:52.853 [INFO] 	at java.lang.reflect.Field.set(Unknown Source)
+	at seleniumFrameWork.BasePage.initialiazePageObjects(BasePage.java:50)
+	at com.Pages.GmailLoginPage.getPage(GmailLoginPage.java:27)
+	at com.Pages.GmailLoginPage.setUserNameTextFiled(GmailLoginPage.java:50)
+	at GmailInvalidLogin.enterUserName(GmailInvalidLogin.java:27)
+19:59:52.853 [INFO] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+19:59:52.853 [INFO] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+19:59:52.853 [INFO] 
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+19:59:52.853 [INFO] 	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+19:59:52.853 [INFO] 	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+19:59:52.853 [INFO] 	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+19:59:52.853 [INFO] 
+19:59:52.853 [INFO] 	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+19:59:52.853 [INFO] 
+19:59:52.853 [INFO] 	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+19:59:52.853 [INFO] 
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+19:59:52.853 [INFO] 	at com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	at com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+19:59:53.238 [ERROR] Failed step: Then I enter the user name as "jithumangad"
+19:59:53.238 [ERROR] Error Message: java.lang.NullPointerException
+19:59:53.238 [ERROR] Stacktrace: com.Pages.GmailLoginPage.setUserNameTextFiled(GmailLoginPage.java:50)
+	GmailInvalidLogin.enterUserName(GmailInvalidLogin.java:27)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	java.lang.reflect.Method.invoke(Unknown Source)
+	com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+	com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+	com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+	com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+	com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+	com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+	
+19:59:53.360 [DEBUG] Plugin [Html Report] with pid [1100] has exited
+19:59:54.648 [INFO] Specifications: 	1 executed, 0 passed, 1 failed, 0 skipped
+19:59:54.648 [INFO] Scenarios: 	1 executed, 0 passed, 1 failed, 0 skipped
+19:59:54.648 [INFO] Total time taken: 7.807s
+20:00:48.179 [INFO] Executing specification: Specification Heading
+20:00:48.180 [INFO] Executing scenario: Enter Invalid Credential and verify that login failed
+20:00:48.180 [DEBUG] Executing Step: * Given I am on "http://www.gmail.com" page
+20:00:49.385 [DEBUG] Executing Step: * Then I enter the user name as "jithumangad"
+20:00:49.478 [INFO] java.lang.IllegalArgumentException: Can not set seleniumFrameWork.Button field com.Pages.GmailLoginPage.loginButton to seleniumFrameWork.WebElementWrapper
+20:00:49.478 [INFO] 
+20:00:49.478 [INFO] 	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+20:00:49.478 [INFO] 
+20:00:49.478 [INFO] 	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+20:00:49.478 [INFO] 
+20:00:49.479 [INFO] 	at sun.reflect.UnsafeObjectFieldAccessorImpl.set(Unknown Source)
+20:00:49.479 [INFO] 
+20:00:49.479 [INFO] 	at java.lang.reflect.Field.set(Unknown Source)
+20:00:49.479 [INFO] 
+20:00:49.479 [INFO] 	at seleniumFrameWork.BasePage.initialiazePageObjects(BasePage.java:50)
+20:00:49.479 [INFO] 
+20:00:49.479 [INFO] 	at com.Pages.GmailLoginPage.getPage(GmailLoginPage.java:27)
+20:00:49.479 [INFO] 
+20:00:49.479 [INFO] 	at com.Pages.GmailLoginPage.setUserNameTextFiled(GmailLoginPage.java:50)
+20:00:49.479 [INFO] 
+	at GmailInvalidLogin.enterUserName(GmailInvalidLogin.java:27)
+20:00:49.479 [INFO] 
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+20:00:49.479 [INFO] 
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+20:00:49.479 [INFO] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+20:00:49.479 [INFO] 	at java.lang.reflect.Method.invoke(Unknown Source)
+20:00:49.479 [INFO] 	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+20:00:49.479 [INFO] 
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+20:00:49.479 [INFO] 	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+20:00:49.479 [INFO] 	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+20:00:49.479 [INFO] 	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+20:00:49.479 [INFO] 
+20:00:49.479 [INFO] 	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+20:00:49.479 [INFO] 
+20:00:49.480 [INFO] 	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+20:00:49.480 [INFO] 
+20:00:49.480 [INFO] 	at com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+20:00:49.480 [INFO] 	at com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+20:00:49.861 [ERROR] Failed step: Then I enter the user name as "jithumangad"
+20:00:49.861 [ERROR] Error Message: java.lang.NullPointerException
+20:00:49.861 [ERROR] Stacktrace: com.Pages.GmailLoginPage.setUserNameTextFiled(GmailLoginPage.java:50)
+	GmailInvalidLogin.enterUserName(GmailInvalidLogin.java:27)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	java.lang.reflect.Method.invoke(Unknown Source)
+	com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+	com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+	com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+	com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+	com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+	com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+	
+20:00:50.011 [DEBUG] Plugin [Html Report] with pid [11488] has exited
+20:00:51.214 [INFO] Specifications: 	1 executed, 0 passed, 1 failed, 0 skipped
+20:00:51.214 [INFO] Scenarios: 	1 executed, 0 passed, 1 failed, 0 skipped
+20:00:51.214 [INFO] Total time taken: 6.771s
+20:04:35.678 [INFO] Executing specification: Specification Heading
+20:04:35.680 [INFO] Executing scenario: Enter Invalid Credential and verify that login failed
+20:04:35.681 [DEBUG] Executing Step: * Given I am on "http://www.gmail.com" page
+20:04:36.775 [DEBUG] Executing Step: * Then I enter the user name as "jithumangad"
+20:04:36.863 [INFO] java.lang.IllegalArgumentException: Can not set seleniumFrameWork.Button field com.Pages.GmailLoginPage.loginButton to seleniumFrameWork.WebElementWrapper
+20:04:36.863 [INFO] 
+20:04:36.863 [INFO] 	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+20:04:36.863 [INFO] 
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+	at sun.reflect.UnsafeObjectFieldAccessorImpl.set(Unknown Source)
+20:04:36.863 [INFO] 
+	at java.lang.reflect.Field.set(Unknown Source)
+20:04:36.863 [INFO] 	at seleniumFrameWork.BasePage.initialiazePageObjects(BasePage.java:50)
+20:04:36.863 [INFO] 	at com.Pages.GmailLoginPage.getPage(GmailLoginPage.java:27)
+20:04:36.863 [INFO] 	at com.Pages.GmailLoginPage.setUserNameTextFiled(GmailLoginPage.java:50)
+	at GmailInvalidLogin.enterUserName(GmailInvalidLogin.java:27)
+20:04:36.863 [INFO] 
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+20:04:36.863 [INFO] 
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+20:04:36.863 [INFO] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+20:04:36.863 [INFO] 
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+20:04:36.863 [INFO] 
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+20:04:36.863 [INFO] 	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+20:04:36.863 [INFO] 	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+20:04:36.863 [INFO] 	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+20:04:36.863 [INFO] 
+20:04:36.863 [INFO] 	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+20:04:36.863 [INFO] 
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+20:04:36.864 [INFO] 
+	at com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+20:04:36.864 [INFO] 	at com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+20:04:36.864 [INFO] 
+20:04:37.232 [ERROR] Failed step: Then I enter the user name as "jithumangad"
+20:04:37.232 [ERROR] Error Message: java.lang.NullPointerException
+20:04:37.232 [ERROR] Stacktrace: com.Pages.GmailLoginPage.setUserNameTextFiled(GmailLoginPage.java:50)
+	GmailInvalidLogin.enterUserName(GmailInvalidLogin.java:27)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	java.lang.reflect.Method.invoke(Unknown Source)
+	com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+	com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+	com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+	com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+	com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+	com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+	
+20:04:37.460 [DEBUG] Plugin [Html Report] with pid [13916] has exited
+20:04:38.462 [INFO] Specifications: 	1 executed, 0 passed, 1 failed, 0 skipped
+20:04:38.462 [INFO] Scenarios: 	1 executed, 0 passed, 1 failed, 0 skipped
+20:04:38.462 [INFO] Total time taken: 7.26s
+20:07:07.677 [INFO] Executing specification: Specification Heading
+20:07:07.678 [INFO] Executing scenario: Enter Invalid Credential and verify that login failed
+20:07:07.678 [DEBUG] Executing Step: * Given I am on "http://www.gmail.com" page
+20:07:09.634 [DEBUG] Executing Step: * Then I enter the user name as "jithumangad"
+20:07:09.738 [INFO] Hi: loginButton
+20:07:09.738 [INFO] 
+20:07:09.739 [INFO] java.lang.IllegalArgumentException: Can not set seleniumFrameWork.Button field com.Pages.GmailLoginPage.loginButton to seleniumFrameWork.WebElementWrapper
+20:07:09.739 [INFO] 
+20:07:09.739 [INFO] 	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+20:07:09.739 [INFO] 
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+	at sun.reflect.UnsafeObjectFieldAccessorImpl.set(Unknown Source)
+	at java.lang.reflect.Field.set(Unknown Source)
+20:07:09.739 [INFO] 	at seleniumFrameWork.BasePage.initialiazePageObjects(BasePage.java:51)
+	at com.Pages.GmailLoginPage.getPage(GmailLoginPage.java:27)
+20:07:09.739 [INFO] 
+	at com.Pages.GmailLoginPage.setUserNameTextFiled(GmailLoginPage.java:50)
+20:07:09.740 [INFO] 	at GmailInvalidLogin.enterUserName(GmailInvalidLogin.java:27)
+20:07:09.740 [INFO] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+20:07:09.740 [INFO] 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+20:07:09.740 [INFO] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+20:07:09.740 [INFO] 
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+20:07:09.740 [INFO] 	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+20:07:09.740 [INFO] 	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+20:07:09.740 [INFO] 
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+20:07:09.740 [INFO] 
+20:07:09.740 [INFO] 	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+20:07:09.740 [INFO] 
+20:07:09.740 [INFO] 	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+20:07:09.740 [INFO] 
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+20:07:09.740 [INFO] 	at com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+20:07:09.740 [INFO] 	at com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+20:07:10.054 [ERROR] Failed step: Then I enter the user name as "jithumangad"
+20:07:10.054 [ERROR] Error Message: java.lang.NullPointerException
+20:07:10.054 [ERROR] Stacktrace: com.Pages.GmailLoginPage.setUserNameTextFiled(GmailLoginPage.java:50)
+	GmailInvalidLogin.enterUserName(GmailInvalidLogin.java:27)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	java.lang.reflect.Method.invoke(Unknown Source)
+	com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+	com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+	com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+	com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+	com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+	com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+	
+20:07:10.789 [DEBUG] Plugin [Html Report] with pid [11784] has exited
+20:07:11.391 [INFO] Specifications: 	1 executed, 0 passed, 1 failed, 0 skipped
+20:07:11.391 [INFO] Scenarios: 	1 executed, 0 passed, 1 failed, 0 skipped
+20:07:11.391 [INFO] Total time taken: 7.502s
+20:12:13.553 [INFO] Executing specification: Specification Heading
+20:12:13.554 [INFO] Executing scenario: Enter Invalid Credential and verify that login failed
+20:12:13.555 [DEBUG] Executing Step: * Given I am on "http://www.gmail.com" page
+20:12:14.634 [DEBUG] Executing Step: * Then I enter the user name as "jithumangad"
+20:12:14.716 [INFO] Hi: loginButton
+20:12:14.716 [INFO] 
+20:12:14.718 [INFO] java.lang.IllegalArgumentException: Can not set seleniumFrameWork.Button field com.Pages.GmailLoginPage.loginButton to seleniumFrameWork.WebElementWrapper
+20:12:14.718 [INFO] 
+20:12:14.718 [INFO] 	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+20:12:14.718 [INFO] 
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+20:12:14.718 [INFO] 	at sun.reflect.UnsafeObjectFieldAccessorImpl.set(Unknown Source)
+	at java.lang.reflect.Field.set(Unknown Source)
+20:12:14.718 [INFO] 
+20:12:14.718 [INFO] 	at seleniumFrameWork.BasePage.initialiazePageObjects(BasePage.java:51)
+20:12:14.718 [INFO] 	at com.Pages.GmailLoginPage.getPage(GmailLoginPage.java:27)
+	at com.Pages.GmailLoginPage.setUserNameTextFiled(GmailLoginPage.java:50)
+20:12:14.718 [INFO] 
+	at GmailInvalidLogin.enterUserName(GmailInvalidLogin.java:27)
+20:12:14.718 [INFO] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+20:12:14.718 [INFO] 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+20:12:14.718 [INFO] 
+	at java.lang.reflect.Method.invoke(Unknown Source)
+20:12:14.718 [INFO] 
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+20:12:14.719 [INFO] 	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+20:12:14.719 [INFO] 
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+20:12:14.719 [INFO] 	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+20:12:14.719 [INFO] 	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+20:12:14.719 [INFO] 
+20:12:14.719 [INFO] 	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+20:12:14.719 [INFO] 
+20:12:14.719 [INFO] 	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+20:12:14.719 [INFO] 
+20:12:14.719 [INFO] 	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+20:12:14.719 [INFO] 
+20:12:14.719 [INFO] 	at com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+20:12:14.719 [INFO] 
+20:12:14.719 [INFO] 	at com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+20:12:14.719 [INFO] 
+20:12:15.113 [ERROR] Failed step: Then I enter the user name as "jithumangad"
+20:12:15.113 [ERROR] Error Message: java.lang.NullPointerException
+20:12:15.113 [ERROR] Stacktrace: com.Pages.GmailLoginPage.setUserNameTextFiled(GmailLoginPage.java:50)
+	GmailInvalidLogin.enterUserName(GmailInvalidLogin.java:27)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	java.lang.reflect.Method.invoke(Unknown Source)
+	com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+	com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+	com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+	com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+	com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+	com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+	
+20:12:15.236 [DEBUG] Plugin [Html Report] with pid [7488] has exited
+20:12:16.342 [INFO] Specifications: 	1 executed, 0 passed, 1 failed, 0 skipped
+20:12:16.342 [INFO] Scenarios: 	1 executed, 0 passed, 1 failed, 0 skipped
+20:12:16.342 [INFO] Total time taken: 6.346s
+20:18:09.120 [INFO] Executing specification: Specification Heading
+20:18:09.121 [INFO] Executing scenario: Enter Invalid Credential and verify that login failed
+20:18:09.122 [DEBUG] Executing Step: * Given I am on "http://www.gmail.com" page
+20:18:10.254 [DEBUG] Executing Step: * Then I enter the user name as "jithumangad"
+20:18:10.336 [INFO] Hi: loginButton
+20:18:10.336 [INFO] 
+20:18:10.337 [INFO] calling Super class
+20:18:10.337 [INFO] 
+Done
+20:18:10.337 [INFO] java.lang.IllegalArgumentException: Can not set seleniumFrameWork.Button field com.Pages.GmailLoginPage.loginButton to seleniumFrameWork.WebElementWrapper
+20:18:10.337 [INFO] 
+20:18:10.338 [INFO] 	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+20:18:10.338 [INFO] 
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+20:18:10.338 [INFO] 	at sun.reflect.UnsafeObjectFieldAccessorImpl.set(Unknown Source)
+	at java.lang.reflect.Field.set(Unknown Source)
+20:18:10.338 [INFO] 
+20:18:10.338 [INFO] 	at seleniumFrameWork.BasePage.initialiazePageObjects(BasePage.java:51)
+	at com.Pages.GmailLoginPage.getPage(GmailLoginPage.java:27)
+20:18:10.338 [INFO] 
+	at com.Pages.GmailLoginPage.setUserNameTextFiled(GmailLoginPage.java:50)
+20:18:10.338 [INFO] 	at GmailInvalidLogin.enterUserName(GmailInvalidLogin.java:27)
+20:18:10.338 [INFO] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+20:18:10.338 [INFO] 
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+20:18:10.338 [INFO] 
+	at java.lang.reflect.Method.invoke(Unknown Source)
+20:18:10.338 [INFO] 	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+20:18:10.338 [INFO] 	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+20:18:10.338 [INFO] 	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+20:18:10.338 [INFO] 
+20:18:10.338 [INFO] 	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+20:18:10.338 [INFO] 
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+20:18:10.338 [INFO] 	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+20:18:10.338 [INFO] 	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+20:18:10.338 [INFO] 	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+	at com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+20:18:10.338 [INFO] 
+	at com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+20:18:10.682 [ERROR] Failed step: Then I enter the user name as "jithumangad"
+20:18:10.682 [ERROR] Error Message: java.lang.NullPointerException
+20:18:10.682 [ERROR] Stacktrace: com.Pages.GmailLoginPage.setUserNameTextFiled(GmailLoginPage.java:50)
+	GmailInvalidLogin.enterUserName(GmailInvalidLogin.java:27)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	java.lang.reflect.Method.invoke(Unknown Source)
+	com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+	com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+	com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+	com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+	com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+	com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+	
+20:18:10.809 [DEBUG] Plugin [Html Report] with pid [7560] has exited
+20:18:11.912 [INFO] Specifications: 	1 executed, 0 passed, 1 failed, 0 skipped
+20:18:11.912 [INFO] Scenarios: 	1 executed, 0 passed, 1 failed, 0 skipped
+20:18:11.912 [INFO] Total time taken: 6.709s
+20:19:02.145 [INFO] Executing specification: Specification Heading
+20:19:02.147 [INFO] Executing scenario: Enter Invalid Credential and verify that login failed
+20:19:02.148 [DEBUG] Executing Step: * Given I am on "http://www.gmail.com" page
+20:19:03.398 [DEBUG] Executing Step: * Then I enter the user name as "jithumangad"
+20:19:03.476 [INFO] Hi: loginButton
+20:19:03.476 [INFO] 
+20:19:03.477 [INFO] calling Super class
+20:19:03.477 [INFO] 
+Done
+20:19:03.478 [INFO] java.lang.IllegalArgumentException: Can not set seleniumFrameWork.Button field com.Pages.GmailLoginPage.loginButton to seleniumFrameWork.WebElementWrapper
+20:19:03.478 [INFO] 
+20:19:03.478 [INFO] 	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+20:19:03.478 [INFO] 
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+20:19:03.478 [INFO] 	at sun.reflect.UnsafeObjectFieldAccessorImpl.set(Unknown Source)
+20:19:03.478 [INFO] 	at java.lang.reflect.Field.set(Unknown Source)
+20:19:03.478 [INFO] 	at seleniumFrameWork.BasePage.initialiazePageObjects(BasePage.java:51)
+20:19:03.478 [INFO] 	at com.Pages.GmailLoginPage.getPage(GmailLoginPage.java:27)
+20:19:03.478 [INFO] 	at com.Pages.GmailLoginPage.setUserNameTextFiled(GmailLoginPage.java:50)
+	at GmailInvalidLogin.enterUserName(GmailInvalidLogin.java:27)
+20:19:03.478 [INFO] 
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+20:19:03.478 [INFO] 
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+20:19:03.478 [INFO] 
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+20:19:03.478 [INFO] 
+	at java.lang.reflect.Method.invoke(Unknown Source)
+20:19:03.478 [INFO] 	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+20:19:03.478 [INFO] 	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+20:19:03.478 [INFO] 	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+20:19:03.478 [INFO] 
+20:19:03.478 [INFO] 	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+20:19:03.478 [INFO] 
+20:19:03.478 [INFO] 	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+20:19:03.478 [INFO] 	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+20:19:03.478 [INFO] 
+20:19:03.479 [INFO] 	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+20:19:03.479 [INFO] 	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+20:19:03.479 [INFO] 	at com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	at com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+20:19:03.856 [ERROR] Failed step: Then I enter the user name as "jithumangad"
+20:19:03.856 [ERROR] Error Message: java.lang.NullPointerException
+20:19:03.856 [ERROR] Stacktrace: com.Pages.GmailLoginPage.setUserNameTextFiled(GmailLoginPage.java:50)
+	GmailInvalidLogin.enterUserName(GmailInvalidLogin.java:27)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	java.lang.reflect.Method.invoke(Unknown Source)
+	com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+	com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+	com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+	com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+	com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+	com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+	
+20:19:03.990 [DEBUG] Plugin [Html Report] with pid [9324] has exited
+20:19:05.092 [INFO] Specifications: 	1 executed, 0 passed, 1 failed, 0 skipped
+20:19:05.092 [INFO] Scenarios: 	1 executed, 0 passed, 1 failed, 0 skipped
+20:19:05.092 [INFO] Total time taken: 6.834s
+20:22:38.289 [INFO] Executing specification: Specification Heading
+20:22:38.291 [INFO] Executing scenario: Enter Invalid Credential and verify that login failed
+20:22:38.293 [DEBUG] Executing Step: * Given I am on "http://www.gmail.com" page
+20:22:39.510 [DEBUG] Executing Step: * Then I enter the user name as "jithumangad"
+20:22:39.592 [INFO] Hi: loginButton
+20:22:39.592 [INFO] 
+Page: com.Pages.GmailLoginPage@38e0a6e
+20:22:39.594 [INFO] calling Super class
+20:22:39.594 [INFO] 
+Done
+java.lang.IllegalArgumentException: Can not set seleniumFrameWork.Button field com.Pages.GmailLoginPage.loginButton to seleniumFrameWork.WebElementWrapper
+20:22:39.594 [INFO] 	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+20:22:39.594 [INFO] 
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+20:22:39.594 [INFO] 
+	at sun.reflect.UnsafeObjectFieldAccessorImpl.set(Unknown Source)
+20:22:39.594 [INFO] 	at java.lang.reflect.Field.set(Unknown Source)
+20:22:39.594 [INFO] 	at seleniumFrameWork.BasePage.initialiazePageObjects(BasePage.java:52)
+20:22:39.594 [INFO] 
+	at com.Pages.GmailLoginPage.getPage(GmailLoginPage.java:27)
+20:22:39.594 [INFO] 
+	at com.Pages.GmailLoginPage.setUserNameTextFiled(GmailLoginPage.java:50)
+20:22:39.594 [INFO] 
+	at GmailInvalidLogin.enterUserName(GmailInvalidLogin.java:27)
+20:22:39.594 [INFO] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+20:22:39.594 [INFO] 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+20:22:39.594 [INFO] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+20:22:39.594 [INFO] 
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+20:22:39.594 [INFO] 
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+20:22:39.601 [INFO] 
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+	at com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	at com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+20:22:39.921 [ERROR] Failed step: Then I enter the user name as "jithumangad"
+20:22:39.921 [ERROR] Error Message: java.lang.NullPointerException
+20:22:39.921 [ERROR] Stacktrace: com.Pages.GmailLoginPage.setUserNameTextFiled(GmailLoginPage.java:50)
+	GmailInvalidLogin.enterUserName(GmailInvalidLogin.java:27)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	java.lang.reflect.Method.invoke(Unknown Source)
+	com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+	com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+	com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+	com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+	com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+	com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+	
+20:22:40.103 [DEBUG] Plugin [Html Report] with pid [11796] has exited
+20:22:41.206 [INFO] Specifications: 	1 executed, 0 passed, 1 failed, 0 skipped
+20:22:41.206 [INFO] Scenarios: 	1 executed, 0 passed, 1 failed, 0 skipped
+20:22:41.206 [INFO] Total time taken: 6.211s
+20:29:43.979 [INFO] Executing specification: Specification Heading
+20:29:43.981 [INFO] Executing scenario: Enter Invalid Credential and verify that login failed
+20:29:43.982 [DEBUG] Executing Step: * Given I am on "http://www.gmail.com" page
+20:29:45.129 [DEBUG] Executing Step: * Then I enter the user name as "jithumangad"
+20:29:45.206 [INFO] Hi: loginButton
+20:29:45.206 [INFO] 
+Locator: id=signIn
+20:29:45.207 [INFO] calling Super class
+20:29:45.207 [INFO] 
+Done
+20:29:45.208 [INFO] java.lang.IllegalArgumentException: Can not set seleniumFrameWork.Button field com.Pages.GmailLoginPage.loginButton to seleniumFrameWork.WebElementWrapper
+20:29:45.208 [INFO] 
+20:29:45.208 [INFO] 	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+20:29:45.208 [INFO] 
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+20:29:45.208 [INFO] 	at sun.reflect.UnsafeObjectFieldAccessorImpl.set(Unknown Source)
+20:29:45.208 [INFO] 	at java.lang.reflect.Field.set(Unknown Source)
+20:29:45.208 [INFO] 	at seleniumFrameWork.BasePage.initialiazePageObjects(BasePage.java:52)
+20:29:45.208 [INFO] 	at com.Pages.GmailLoginPage.getPage(GmailLoginPage.java:27)
+	at com.Pages.GmailLoginPage.setUserNameTextFiled(GmailLoginPage.java:50)
+20:29:45.208 [INFO] 
+	at GmailInvalidLogin.enterUserName(GmailInvalidLogin.java:27)
+20:29:45.208 [INFO] 
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+20:29:45.208 [INFO] 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+20:29:45.208 [INFO] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+20:29:45.209 [INFO] 
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+20:29:45.209 [INFO] 
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+20:29:45.209 [INFO] 	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+20:29:45.209 [INFO] 	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+20:29:45.209 [INFO] 
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+20:29:45.209 [INFO] 	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+	at com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+20:29:45.209 [INFO] 
+20:29:45.209 [INFO] 	at com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+20:29:45.568 [ERROR] Failed step: Then I enter the user name as "jithumangad"
+20:29:45.568 [ERROR] Error Message: java.lang.NullPointerException
+20:29:45.568 [ERROR] Stacktrace: com.Pages.GmailLoginPage.setUserNameTextFiled(GmailLoginPage.java:50)
+	GmailInvalidLogin.enterUserName(GmailInvalidLogin.java:27)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	java.lang.reflect.Method.invoke(Unknown Source)
+	com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+	com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+	com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+	com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+	com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+	com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+	
+20:29:45.778 [DEBUG] Plugin [Html Report] with pid [8520] has exited
+20:29:46.927 [INFO] Specifications: 	1 executed, 0 passed, 1 failed, 0 skipped
+20:29:46.927 [INFO] Scenarios: 	1 executed, 0 passed, 1 failed, 0 skipped
+20:29:46.927 [INFO] Total time taken: 6.324s
+20:31:53.701 [INFO] Executing specification: Specification Heading
+20:31:53.702 [INFO] Executing scenario: Enter Invalid Credential and verify that login failed
+20:31:53.703 [DEBUG] Executing Step: * Given I am on "http://www.gmail.com" page
+20:31:54.731 [DEBUG] Executing Step: * Then I enter the user name as "jithumangad"
+20:31:54.821 [INFO] Hi: loginButton
+20:31:54.821 [INFO] 
+Locator: id=signIn
+20:31:54.822 [INFO] calling Super class
+20:31:54.822 [INFO] 
+Done
+20:31:54.823 [INFO] java.lang.IllegalArgumentException: Can not set seleniumFrameWork.Button field com.Pages.GmailLoginPage.loginButton to seleniumFrameWork.WebElementWrapper
+20:31:54.823 [INFO] 
+20:31:54.823 [INFO] 	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+20:31:54.823 [INFO] 
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+20:31:54.823 [INFO] 	at sun.reflect.UnsafeObjectFieldAccessorImpl.set(Unknown Source)
+20:31:54.823 [INFO] 	at java.lang.reflect.Field.set(Unknown Source)
+20:31:54.823 [INFO] 	at seleniumFrameWork.BasePage.initialiazePageObjects(BasePage.java:52)
+20:31:54.823 [INFO] 	at com.Pages.GmailLoginPage.getPage(GmailLoginPage.java:27)
+	at com.Pages.GmailLoginPage.setUserNameTextFiled(GmailLoginPage.java:50)
+20:31:54.823 [INFO] 
+	at GmailInvalidLogin.enterUserName(GmailInvalidLogin.java:27)
+20:31:54.823 [INFO] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+20:31:54.823 [INFO] 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+20:31:54.823 [INFO] 
+20:31:54.823 [INFO] 	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+20:31:54.823 [INFO] 
+20:31:54.823 [INFO] 	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+20:31:54.823 [INFO] 	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+20:31:54.824 [INFO] 	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+20:31:54.824 [INFO] 	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+20:31:54.824 [INFO] 
+	at com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+20:31:54.824 [INFO] 
+20:31:54.824 [INFO] 	at com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+20:31:55.202 [ERROR] Failed step: Then I enter the user name as "jithumangad"
+20:31:55.202 [ERROR] Error Message: java.lang.NullPointerException
+20:31:55.202 [ERROR] Stacktrace: com.Pages.GmailLoginPage.setUserNameTextFiled(GmailLoginPage.java:50)
+	GmailInvalidLogin.enterUserName(GmailInvalidLogin.java:27)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	java.lang.reflect.Method.invoke(Unknown Source)
+	com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+	com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+	com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+	com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+	com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+	com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+	
+20:31:55.334 [DEBUG] Plugin [Html Report] with pid [4152] has exited
+20:31:56.443 [INFO] Specifications: 	1 executed, 0 passed, 1 failed, 0 skipped
+20:31:56.443 [INFO] Scenarios: 	1 executed, 0 passed, 1 failed, 0 skipped
+20:31:56.443 [INFO] Total time taken: 7.257s
+20:33:27.298 [INFO] Executing specification: Specification Heading
+20:33:27.300 [INFO] Executing scenario: Enter Invalid Credential and verify that login failed
+20:33:27.301 [DEBUG] Executing Step: * Given I am on "http://www.gmail.com" page
+20:33:28.525 [DEBUG] Executing Step: * Then I enter the user name as "jithumangad"
+20:33:28.631 [INFO] Hi: loginButton
+20:33:28.631 [INFO] 
+Locator: id=signIn
+20:33:28.633 [INFO] calling Super class
+20:33:28.633 [INFO] 
+Done
+20:33:28.637 [INFO] java.lang.IllegalArgumentException: Can not set seleniumFrameWork.Button field com.Pages.GmailLoginPage.loginButton to seleniumFrameWork.WebElementWrapper
+20:33:28.637 [INFO] 
+20:33:28.637 [INFO] 	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+20:33:28.637 [INFO] 
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+20:33:28.637 [INFO] 	at sun.reflect.UnsafeObjectFieldAccessorImpl.set(Unknown Source)
+20:33:28.637 [INFO] 	at java.lang.reflect.Field.set(Unknown Source)
+20:33:28.637 [INFO] 	at seleniumFrameWork.BasePage.initialiazePageObjects(BasePage.java:52)
+	at com.Pages.GmailLoginPage.getPage(GmailLoginPage.java:27)
+	at com.Pages.GmailLoginPage.setUserNameTextFiled(GmailLoginPage.java:50)
+	at GmailInvalidLogin.enterUserName(GmailInvalidLogin.java:27)
+20:33:28.637 [INFO] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+20:33:28.637 [INFO] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+20:33:28.637 [INFO] 
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+20:33:28.637 [INFO] 
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+20:33:28.637 [INFO] 
+20:33:28.638 [INFO] 	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+20:33:28.638 [INFO] 
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+20:33:28.638 [INFO] 	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+20:33:28.638 [INFO] 	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+20:33:28.638 [INFO] 	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+20:33:28.638 [INFO] 	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+	at com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+20:33:28.638 [INFO] 
+	at com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+20:33:28.985 [ERROR] Failed step: Then I enter the user name as "jithumangad"
+20:33:28.985 [ERROR] Error Message: java.lang.NullPointerException
+20:33:28.985 [ERROR] Stacktrace: com.Pages.GmailLoginPage.setUserNameTextFiled(GmailLoginPage.java:50)
+	GmailInvalidLogin.enterUserName(GmailInvalidLogin.java:27)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	java.lang.reflect.Method.invoke(Unknown Source)
+	com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+	com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+	com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+	com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+	com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+	com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+	
+20:33:29.212 [DEBUG] Plugin [Html Report] with pid [1696] has exited
+20:33:30.323 [INFO] Specifications: 	1 executed, 0 passed, 1 failed, 0 skipped
+20:33:30.323 [INFO] Scenarios: 	1 executed, 0 passed, 1 failed, 0 skipped
+20:33:30.323 [INFO] Total time taken: 6.748s
+20:35:05.861 [INFO] Executing specification: Specification Heading
+20:35:05.863 [INFO] Executing scenario: Enter Invalid Credential and verify that login failed
+20:35:05.864 [DEBUG] Executing Step: * Given I am on "http://www.gmail.com" page
+20:35:08.004 [DEBUG] Executing Step: * Then I enter the user name as "jithumangad"
+20:35:08.084 [INFO] Hi: loginButton
+20:35:08.084 [INFO] 
+20:35:08.084 [INFO] Locator: id=signIn
+20:35:08.084 [INFO] 
+20:35:08.085 [INFO] calling Super class
+20:35:08.085 [INFO] 
+Done
+20:35:08.086 [INFO] java.lang.IllegalArgumentException: Can not set seleniumFrameWork.Button field com.Pages.GmailLoginPage.loginButton to seleniumFrameWork.WebElementWrapper
+20:35:08.086 [INFO] 
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+20:35:08.086 [INFO] 
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+	at sun.reflect.UnsafeObjectFieldAccessorImpl.set(Unknown Source)
+20:35:08.086 [INFO] 	at java.lang.reflect.Field.set(Unknown Source)
+20:35:08.086 [INFO] 	at seleniumFrameWork.BasePage.initialiazePageObjects(BasePage.java:52)
+	at com.Pages.GmailLoginPage.getPage(GmailLoginPage.java:21)
+	at com.Pages.GmailLoginPage.setUserNameTextFiled(GmailLoginPage.java:44)
+20:35:08.087 [INFO] 
+	at GmailInvalidLogin.enterUserName(GmailInvalidLogin.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+20:35:08.087 [INFO] 
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+20:35:08.087 [INFO] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+20:35:08.087 [INFO] 
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+20:35:08.087 [INFO] 	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+20:35:08.087 [INFO] 
+20:35:08.087 [INFO] 	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+20:35:08.087 [INFO] 
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+20:35:08.087 [INFO] 
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+20:35:08.087 [INFO] 	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+20:35:08.087 [INFO] 	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+20:35:08.087 [INFO] 
+	at com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+20:35:08.087 [INFO] 
+	at com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+20:35:08.434 [ERROR] Failed step: Then I enter the user name as "jithumangad"
+20:35:08.434 [ERROR] Error Message: java.lang.NullPointerException
+20:35:08.434 [ERROR] Stacktrace: com.Pages.GmailLoginPage.setUserNameTextFiled(GmailLoginPage.java:44)
+	GmailInvalidLogin.enterUserName(GmailInvalidLogin.java:27)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	java.lang.reflect.Method.invoke(Unknown Source)
+	com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+	com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+	com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+	com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+	com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+	com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+	
+20:35:08.562 [DEBUG] Plugin [Html Report] with pid [14268] has exited
+20:35:09.766 [INFO] Specifications: 	1 executed, 0 passed, 1 failed, 0 skipped
+20:35:09.766 [INFO] Scenarios: 	1 executed, 0 passed, 1 failed, 0 skipped
+20:35:09.766 [INFO] Total time taken: 7.951s
+20:36:24.808 [INFO] Executing specification: Specification Heading
+20:36:24.810 [INFO] Executing scenario: Enter Invalid Credential and verify that login failed
+20:36:24.812 [DEBUG] Executing Step: * Given I am on "http://www.gmail.com" page
+20:36:26.737 [DEBUG] Executing Step: * Then I enter the user name as "jithumangad"
+20:36:26.819 [INFO] Hi: loginButton
+20:36:26.819 [INFO] 
+Locator: id=signIn
+20:36:26.820 [INFO] calling Super class
+20:36:26.821 [INFO] 
+Done
+20:36:26.822 [INFO] java.lang.IllegalArgumentException: Can not set seleniumFrameWork.Button field com.Pages.GmailLoginPage.loginButton to seleniumFrameWork.WebElementWrapper
+20:36:26.822 [INFO] 
+20:36:26.822 [INFO] 	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+20:36:26.822 [INFO] 
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+20:36:26.822 [INFO] 	at sun.reflect.UnsafeObjectFieldAccessorImpl.set(Unknown Source)
+	at java.lang.reflect.Field.set(Unknown Source)
+20:36:26.822 [INFO] 
+	at seleniumFrameWork.BasePage.initialiazePageObjects(BasePage.java:51)
+20:36:26.822 [INFO] 
+	at com.Pages.GmailLoginPage.getPage(GmailLoginPage.java:20)
+20:36:26.822 [INFO] 
+	at com.Pages.GmailLoginPage.setUserNameTextFiled(GmailLoginPage.java:43)
+20:36:26.822 [INFO] 	at GmailInvalidLogin.enterUserName(GmailInvalidLogin.java:27)
+20:36:26.822 [INFO] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+20:36:26.822 [INFO] 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+20:36:26.822 [INFO] 
+	at java.lang.reflect.Method.invoke(Unknown Source)
+20:36:26.822 [INFO] 	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+20:36:26.822 [INFO] 	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+20:36:26.822 [INFO] 
+20:36:26.822 [INFO] 	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+20:36:26.822 [INFO] 
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+20:36:26.822 [INFO] 	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+20:36:26.822 [INFO] 	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+20:36:26.823 [INFO] 
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+20:36:26.823 [INFO] 
+	at com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+20:36:26.823 [INFO] 	at com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+20:36:27.163 [ERROR] Failed step: Then I enter the user name as "jithumangad"
+20:36:27.163 [ERROR] Error Message: java.lang.NullPointerException
+20:36:27.163 [ERROR] Stacktrace: com.Pages.GmailLoginPage.setUserNameTextFiled(GmailLoginPage.java:43)
+	GmailInvalidLogin.enterUserName(GmailInvalidLogin.java:27)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	java.lang.reflect.Method.invoke(Unknown Source)
+	com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+	com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+	com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+	com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+	com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+	com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+	
+20:36:27.891 [DEBUG] Plugin [Html Report] with pid [2472] has exited
+20:36:28.792 [INFO] Specifications: 	1 executed, 0 passed, 1 failed, 0 skipped
+20:36:28.792 [INFO] Scenarios: 	1 executed, 0 passed, 1 failed, 0 skipped
+20:36:28.792 [INFO] Total time taken: 7.608s
+20:38:07.943 [INFO] Executing specification: Specification Heading
+20:38:07.944 [INFO] Executing scenario: Enter Invalid Credential and verify that login failed
+20:38:07.946 [DEBUG] Executing Step: * Given I am on "http://www.gmail.com" page
+20:38:09.244 [DEBUG] Executing Step: * Then I enter the user name as "jithumangad"
+20:38:09.323 [INFO] calling Super class
+20:38:09.323 [INFO] 
+Done
+20:38:09.323 [INFO] 
+20:38:09.324 [INFO] java.lang.IllegalArgumentException: Can not set seleniumFrameWork.Button field com.Pages.GmailLoginPage.loginButton to seleniumFrameWork.WebElementWrapper
+20:38:09.324 [INFO] 
+20:38:09.324 [INFO] 	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+20:38:09.324 [INFO] 
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+	at sun.reflect.UnsafeObjectFieldAccessorImpl.set(Unknown Source)
+20:38:09.324 [INFO] 	at java.lang.reflect.Field.set(Unknown Source)
+20:38:09.324 [INFO] 	at seleniumFrameWork.BasePage.initialiazePageObjects(BasePage.java:48)
+20:38:09.324 [INFO] 	at com.Pages.GmailLoginPage.getPage(GmailLoginPage.java:20)
+20:38:09.324 [INFO] 	at com.Pages.GmailLoginPage.setUserNameTextFiled(GmailLoginPage.java:43)
+	at GmailInvalidLogin.enterUserName(GmailInvalidLogin.java:27)
+20:38:09.324 [INFO] 
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+20:38:09.324 [INFO] 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+20:38:09.324 [INFO] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+20:38:09.324 [INFO] 
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+20:38:09.324 [INFO] 
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+20:38:09.324 [INFO] 
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+20:38:09.324 [INFO] 	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+20:38:09.324 [INFO] 
+20:38:09.324 [INFO] 	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+20:38:09.324 [INFO] 
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+20:38:09.324 [INFO] 
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+20:38:09.324 [INFO] 	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+20:38:09.325 [INFO] 	at com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+20:38:09.325 [INFO] 	at com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+20:38:09.632 [ERROR] Failed step: Then I enter the user name as "jithumangad"
+20:38:09.632 [ERROR] Error Message: java.lang.NullPointerException
+20:38:09.632 [ERROR] Stacktrace: com.Pages.GmailLoginPage.setUserNameTextFiled(GmailLoginPage.java:43)
+	GmailInvalidLogin.enterUserName(GmailInvalidLogin.java:27)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	java.lang.reflect.Method.invoke(Unknown Source)
+	com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+	com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+	com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+	com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+	com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+	com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+	
+20:38:09.860 [DEBUG] Plugin [Html Report] with pid [6180] has exited
+20:38:10.971 [INFO] Specifications: 	1 executed, 0 passed, 1 failed, 0 skipped
+20:38:10.971 [INFO] Scenarios: 	1 executed, 0 passed, 1 failed, 0 skipped
+20:38:10.971 [INFO] Total time taken: 6.313s
+20:46:38.010 [INFO] Executing specification: Specification Heading
+20:46:38.011 [INFO] Executing scenario: Enter Invalid Credential and verify that login failed
+20:46:38.012 [DEBUG] Executing Step: * Given I am on "http://www.gmail.com" page
+20:46:39.468 [DEBUG] Executing Step: * Then I enter the user name as "jithumangad"
+20:46:39.552 [INFO] calling Super class
+20:46:39.553 [INFO] 
+Done
+20:46:39.553 [INFO] java.lang.IllegalArgumentException: Can not set seleniumFrameWork.Button field com.Pages.GmailLoginPage.loginButton to seleniumFrameWork.WebElementWrapper
+20:46:39.553 [INFO] 
+20:46:39.554 [INFO] 	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+20:46:39.554 [INFO] 
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+20:46:39.554 [INFO] 	at sun.reflect.UnsafeObjectFieldAccessorImpl.set(Unknown Source)
+	at java.lang.reflect.Field.set(Unknown Source)
+20:46:39.554 [INFO] 
+	at seleniumFrameWork.BasePage.initialiazePageObjects(BasePage.java:48)
+20:46:39.554 [INFO] 
+	at com.Pages.GmailLoginPage.getPage(GmailLoginPage.java:20)
+20:46:39.554 [INFO] 	at com.Pages.GmailLoginPage.setUserNameTextFiled(GmailLoginPage.java:43)
+20:46:39.554 [INFO] 
+20:46:39.554 [INFO] 	at GmailInvalidLogin.enterUserName(GmailInvalidLogin.java:27)
+20:46:39.554 [INFO] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+20:46:39.554 [INFO] 
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+20:46:39.554 [INFO] 
+	at java.lang.reflect.Method.invoke(Unknown Source)
+20:46:39.554 [INFO] 
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+20:46:39.554 [INFO] 
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+20:46:39.554 [INFO] 	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+20:46:39.554 [INFO] 	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+20:46:39.554 [INFO] 
+20:46:39.554 [INFO] 	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+20:46:39.554 [INFO] 
+20:46:39.555 [INFO] 	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+20:46:39.555 [INFO] 
+20:46:39.555 [INFO] 	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+20:46:39.555 [INFO] 
+20:46:39.555 [INFO] 	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+20:46:39.555 [INFO] 
+20:46:39.555 [INFO] 	at com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+20:46:39.555 [INFO] 
+20:46:39.555 [INFO] 	at com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+20:46:39.555 [INFO] 
+20:46:39.983 [ERROR] Failed step: Then I enter the user name as "jithumangad"
+20:46:39.983 [ERROR] Error Message: java.lang.NullPointerException
+20:46:39.983 [ERROR] Stacktrace: com.Pages.GmailLoginPage.setUserNameTextFiled(GmailLoginPage.java:43)
+	GmailInvalidLogin.enterUserName(GmailInvalidLogin.java:27)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	java.lang.reflect.Method.invoke(Unknown Source)
+	com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+	com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+	com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+	com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+	com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+	com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+	
+20:46:40.187 [DEBUG] Plugin [Html Report] with pid [6992] has exited
+20:46:41.190 [INFO] Specifications: 	1 executed, 0 passed, 1 failed, 0 skipped
+20:46:41.190 [INFO] Scenarios: 	1 executed, 0 passed, 1 failed, 0 skipped
+20:46:41.190 [INFO] Total time taken: 7.255s
+20:52:40.709 [INFO] Executing specification: Specification Heading
+20:52:40.710 [INFO] Executing scenario: Enter Invalid Credential and verify that login failed
+20:52:40.711 [DEBUG] Executing Step: * Given I am on "http://www.gmail.com" page
+20:52:41.940 [DEBUG] Executing Step: * Then I enter the user name as "jithumangad"
+20:52:42.099 [INFO] Text: jithumangad
+20:52:42.099 [INFO] 
+Locator: id=Email
+20:52:42.499 [DEBUG] Executing Step: * And click Next button
+20:52:42.678 [DEBUG] Executing Step: * Then I enter the password as "test1234"
+20:52:42.680 [INFO] Text: test1234
+20:52:42.680 [INFO] 
+Locator: id=Passwd
+20:52:44.100 [ERROR] Failed step: Then I enter the password as "test1234"
+20:52:44.100 [ERROR] Error Message: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"Passwd"}
+Command duration or timeout: 21 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'jithu', ip: '192.168.1.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=35.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 11408f1e-f2d6-4672-900f-6c15671484cc
+*** Element info: {Using=id, value=Passwd}
+20:52:44.100 [ERROR] Stacktrace: sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	java.lang.reflect.Constructor.newInstance(Unknown Source)
+	org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:403)
+	org.openqa.selenium.By$ById.findElement(By.java:218)
+	org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	seleniumFrameWork.ResourceLocator.getElementResouce(ResourceLocator.java:37)
+	seleniumFrameWork.TextField.getElement(TextField.java:20)
+	seleniumFrameWork.TextField.setTextField(TextField.java:28)
+	com.Pages.GmailLoginPage.setPasswordTextField(GmailLoginPage.java:52)
+	GmailInvalidLogin.enterPassword(GmailInvalidLogin.java:37)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	java.lang.reflect.Method.invoke(Unknown Source)
+	com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+	com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+	com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+	com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+	com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+	com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+	
+20:52:44.482 [DEBUG] Plugin [Html Report] with pid [7400] has exited
+20:52:45.182 [INFO] Specifications: 	1 executed, 0 passed, 1 failed, 0 skipped
+20:52:45.182 [INFO] Scenarios: 	1 executed, 0 passed, 1 failed, 0 skipped
+20:52:45.182 [INFO] Total time taken: 9.222s
+20:55:53.110 [INFO] Executing specification: Specification Heading
+20:55:53.112 [INFO] Executing scenario: Enter Invalid Credential and verify that login failed
+20:55:53.113 [DEBUG] Executing Step: * Given I am on "http://www.gmail.com" page
+20:55:54.276 [DEBUG] Executing Step: * Then I enter the user name as "jithumangad"
+20:55:54.353 [INFO] Text: jithumangad
+20:55:54.353 [INFO] 
+Locator: id=Email
+20:55:54.916 [DEBUG] Executing Step: * And click Next button
+20:55:55.192 [DEBUG] Executing Step: * Then I enter the password as "test1234"
+20:55:55.195 [INFO] Text: test1234
+20:55:55.195 [INFO] 
+Locator: name=Passwd
+20:55:55.615 [ERROR] Failed step: Then I enter the password as "test1234"
+20:55:55.615 [ERROR] Error Message: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"Passwd"}
+Command duration or timeout: 31 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'jithu', ip: '192.168.1.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=35.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: bfa3535b-fce1-451d-8945-66b181837d82
+*** Element info: {Using=name, value=Passwd}
+20:55:55.615 [ERROR] Stacktrace: sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	java.lang.reflect.Constructor.newInstance(Unknown Source)
+	org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:451)
+	org.openqa.selenium.By$ByName.findElement(By.java:303)
+	org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	seleniumFrameWork.ResourceLocator.getElementResouce(ResourceLocator.java:40)
+	seleniumFrameWork.TextField.getElement(TextField.java:20)
+	seleniumFrameWork.TextField.setTextField(TextField.java:28)
+	com.Pages.GmailLoginPage.setPasswordTextField(GmailLoginPage.java:52)
+	GmailInvalidLogin.enterPassword(GmailInvalidLogin.java:37)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	java.lang.reflect.Method.invoke(Unknown Source)
+	com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+	com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+	com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+	com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+	com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+	com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+	
+20:55:56.049 [DEBUG] Plugin [Html Report] with pid [5296] has exited
+20:55:56.851 [INFO] Specifications: 	1 executed, 0 passed, 1 failed, 0 skipped
+20:55:56.851 [INFO] Scenarios: 	1 executed, 0 passed, 1 failed, 0 skipped
+20:55:56.851 [INFO] Total time taken: 8.37s
+20:57:36.905 [INFO] Executing specification: Specification Heading
+20:57:36.906 [INFO] Executing scenario: Enter Invalid Credential and verify that login failed
+20:57:36.907 [DEBUG] Executing Step: * Given I am on "http://www.gmail.com" page
+20:57:38.048 [DEBUG] Executing Step: * Then I enter the user name as "jithumangad"
+20:57:38.143 [INFO] Text: jithumangad
+20:57:38.143 [INFO] 
+Locator: id=Email
+20:57:38.143 [INFO] 
+20:57:38.597 [DEBUG] Executing Step: * And click Next button
+20:57:38.844 [DEBUG] Executing Step: * Then I enter the password as "test1234"
+20:57:41.845 [INFO] Text: test1234
+20:57:41.845 [INFO] 
+Locator: name=Passwd
+20:57:41.968 [DEBUG] Executing Step: * And click on Login button
+20:57:43.329 [DEBUG] Executing Step: * Then I should see the error message
+20:57:43.765 [DEBUG] Plugin [Html Report] with pid [1104] has exited
+20:57:44.165 [INFO] Specifications: 	1 executed, 1 passed, 0 failed, 0 skipped
+20:57:44.165 [INFO] Scenarios: 	1 executed, 1 passed, 0 failed, 0 skipped
+20:57:44.165 [INFO] Total time taken: 12.462s
+21:03:33.627 [INFO] Executing specification: Specification Heading
+21:03:33.638 [INFO] Executing scenario: Enter Invalid Credential and verify that login failed
+21:03:33.639 [DEBUG] Executing Step: * Given I am on "http://www.gmail.com" page
+21:03:34.805 [DEBUG] Executing Step: * Then I enter the user name as "jithumangad"
+21:03:34.884 [INFO] calling Super class
+21:03:34.884 [INFO] 
+Done
+21:03:34.885 [INFO] java.lang.IllegalArgumentException: Can not set seleniumFrameWork.Button field com.Pages.GmailLoginPage.loginButton to seleniumFrameWork.WebElementWrapper
+21:03:34.885 [INFO] 
+21:03:34.885 [INFO] 	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+21:03:34.885 [INFO] 
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+	at sun.reflect.UnsafeObjectFieldAccessorImpl.set(Unknown Source)
+	at java.lang.reflect.Field.set(Unknown Source)
+21:03:34.885 [INFO] 	at seleniumFrameWork.BasePage.initialiazePageObjects(BasePage.java:43)
+	at com.Pages.GmailLoginPage.getPage(GmailLoginPage.java:20)
+21:03:34.885 [INFO] 
+	at com.Pages.GmailLoginPage.setUserNameTextFiled(GmailLoginPage.java:37)
+21:03:34.885 [INFO] 
+	at GmailInvalidLogin.enterUserName(GmailInvalidLogin.java:27)
+21:03:34.885 [INFO] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+21:03:34.885 [INFO] 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+21:03:34.885 [INFO] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+21:03:34.885 [INFO] 
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+21:03:34.885 [INFO] 
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+21:03:34.905 [INFO] 	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+	at com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	at com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+21:03:35.220 [ERROR] Failed step: Then I enter the user name as "jithumangad"
+21:03:35.221 [ERROR] Error Message: java.lang.NullPointerException
+21:03:35.221 [ERROR] Stacktrace: com.Pages.GmailLoginPage.setUserNameTextFiled(GmailLoginPage.java:37)
+	GmailInvalidLogin.enterUserName(GmailInvalidLogin.java:27)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	java.lang.reflect.Method.invoke(Unknown Source)
+	com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+	com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+	com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+	com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+	com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+	com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:37)
+	com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+	
+21:03:35.343 [DEBUG] Plugin [Html Report] with pid [8956] has exited
+21:03:36.462 [INFO] Specifications: 	1 executed, 0 passed, 1 failed, 0 skipped
+21:03:36.462 [INFO] Scenarios: 	1 executed, 0 passed, 1 failed, 0 skipped
+21:03:36.462 [INFO] Total time taken: 6.935s
+22:34:55.340 [INFO] Error: Could not find or load main class com.thoughtworks.gauge.GaugeRuntime
+22:34:55.413 [INFO] 
+process C:\ProgramData\Oracle\Java\javapath\java.exe with pid 14332 quit unexpectedly. exit status 1
+22:34:55.413 [DEBUG] Runner exited with error: exit status 1
+22:34:55.414 [DEBUG] Runner connection error: Runner exited with error: exit status 1
+22:34:55.414 [DEBUG] Error while killing runner: invalid argument
+22:35:51.121 [INFO] Error: Could not find or load main class com.thoughtworks.gauge.GaugeRuntime
+22:35:51.138 [INFO] 
+process C:\ProgramData\Oracle\Java\javapath\java.exe with pid 9604 quit unexpectedly. exit status 1
+22:35:51.142 [DEBUG] Runner exited with error: exit status 1
+22:35:51.142 [DEBUG] Runner connection error: Runner exited with error: exit status 1
+22:35:51.142 [DEBUG] Error while killing runner: invalid argument
+22:36:13.596 [INFO] Error: Could not find or load main class com.thoughtworks.gauge.GaugeRuntime
+22:36:13.760 [INFO] 
+process C:\ProgramData\Oracle\Java\javapath\java.exe with pid 596 quit unexpectedly. exit status 1
+22:36:13.760 [DEBUG] Runner exited with error: exit status 1
+22:36:13.760 [DEBUG] Runner connection error: Runner exited with error: exit status 1
+22:36:13.760 [DEBUG] Error while killing runner: invalid argument
+22:39:53.391 [INFO] Error: Could not find or load main class com.thoughtworks.gauge.GaugeRuntime
+22:39:53.391 [INFO] 
+22:39:53.405 [INFO] process C:\ProgramData\Oracle\Java\javapath\java.exe with pid 14088 quit unexpectedly. exit status 1
+22:39:53.412 [DEBUG] Runner exited with error: exit status 1
+22:39:53.412 [DEBUG] Runner connection error: Runner exited with error: exit status 1
+22:39:53.412 [DEBUG] Error while killing runner: invalid argument
+22:40:16.190 [INFO]  create  manifest.json
+22:40:16.191 [INFO]  skip  manifest.json
+22:40:16.210 [INFO]  create  specs
+22:40:16.210 [INFO]  skip  specs
+22:40:16.217 [INFO]  create  specs/hello_world.spec
+22:40:16.217 [INFO]  skip  specs/hello_world.spec
+22:40:16.217 [INFO]  create  env
+22:40:16.217 [INFO]  create  env/default
+22:40:16.227 [INFO]  create  env/default/default.properties
+22:40:16.336 [INFO] 
+Successfully initialized the project. Run specifications with "gauge specs/"
+22:40:16.513 [INFO] Error: Could not find or load main class com.thoughtworks.gauge.GaugeRuntime
+22:40:16.513 [INFO] 
+22:40:16.523 [INFO] process C:\ProgramData\Oracle\Java\javapath\java.exe with pid 11776 quit unexpectedly. exit status 1
+22:40:16.530 [DEBUG] Runner exited with error: exit status 1
+22:40:16.530 [DEBUG] Runner connection error: Runner exited with error: exit status 1
+22:40:16.530 [DEBUG] Error while killing runner: invalid argument
+22:21:41.904 [WARNING] Killing runner with PID:4972 forcefully
+22:21:41.939 [INFO] com.google.protobuf.InvalidProtocolBufferException: While parsing a protocol message, the input ended unexpectedly in the middle of a field.  This could mean either than the input has been truncated or that an embedded message misreported its own length.
+22:21:41.939 [INFO] 
+22:21:41.939 [INFO] 	at com.google.protobuf.InvalidProtocolBufferException.truncatedMessage(InvalidProtocolBufferException.java:70)
+22:21:41.939 [INFO] 
+	at com.google.protobuf.CodedInputStream.refillBuffer(CodedInputStream.java:1082)
+22:21:41.939 [INFO] 
+	at com.google.protobuf.CodedInputStream.readRawByte(CodedInputStream.java:1149)
+22:21:41.939 [INFO] 
+22:21:41.939 [INFO] 	at com.google.protobuf.CodedInputStream.readRawVarint64SlowPath(CodedInputStream.java:778)
+22:21:41.939 [INFO] 	at com.google.protobuf.CodedInputStream.readRawVarint64(CodedInputStream.java:770)
+22:21:41.939 [INFO] 
+	at com.thoughtworks.gauge.connection.MessageDispatcher.getMessageLength(MessageDispatcher.java:92)
+22:21:41.939 [INFO] 
+22:21:41.939 [INFO] 	at com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:65)
+22:21:41.939 [INFO] 	at com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+22:21:41.939 [INFO] 
+22:21:41.939 [INFO] com.google.protobuf.InvalidProtocolBufferException: While parsing a protocol message, the input ended unexpectedly in the middle of a field.  This could mean either than the input has been truncated or that an embedded message misreported its own length.
+22:21:41.939 [INFO] 
+22:21:42.008 [DEBUG] Runner exited with error: exit status 1
+22:40:41.239 [INFO] Error: Could not find or load main class com.thoughtworks.gauge.GaugeRuntime
+22:40:41.240 [INFO] 
+22:40:41.249 [INFO] process C:\Program Files\Java\jdk1.8.0_66\jre\bin\java.exe with pid 12260 quit unexpectedly. exit status 1
+22:40:41.256 [DEBUG] Runner exited with error: exit status 1
+22:40:41.256 [DEBUG] Runner connection error: Runner exited with error: exit status 1
+22:40:41.256 [DEBUG] Error while killing runner: invalid argument
+22:54:15.973 [INFO] Executing specification: Specification Heading
+22:54:16.002 [INFO] Executing scenario: Enter Invalid Credential and verify that login failed
+22:54:16.004 [DEBUG] Executing Step: * Given I am on "http://www.gmail.com" page
+22:54:17.740 [DEBUG] Executing Step: * Then I enter the user name as "jithumangad"
+22:54:17.874 [INFO] Text: jithumangad
+22:54:17.874 [INFO] 
+Locator: id=Email
+22:54:18.241 [DEBUG] Executing Step: * And click Next button
+22:54:18.567 [DEBUG] Executing Step: * Then I enter the password as "test1234"
+22:54:21.570 [INFO] Text: test1234
+22:54:21.570 [INFO] 
+Locator: name=Passwd
+22:54:21.753 [DEBUG] Executing Step: * And click on Login button
+22:54:23.056 [DEBUG] Executing Step: * Then I should see the error message
+22:54:23.640 [DEBUG] Plugin [Html Report] with pid [14304] has exited
+22:54:23.940 [INFO] Specifications: 	1 executed, 1 passed, 0 failed, 0 skipped
+22:54:23.940 [INFO] Scenarios: 	1 executed, 1 passed, 0 failed, 0 skipped
+22:54:23.940 [INFO] Total time taken: 13.085s

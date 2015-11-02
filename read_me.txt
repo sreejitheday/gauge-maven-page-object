@@ -1,0 +1,1 @@
+this is a mavenized gauge project with page object model.

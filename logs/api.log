@@ -1,0 +1,226 @@
+15:15:49.252 [INFO] Initializing concepts cache with 0 concepts
+15:15:49.258 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+15:15:49.287 [INFO] Initializing specs cache with 1 specs
+15:16:01.420 [INFO] Initializing steps cache with 6 steps
+15:23:41.406 [INFO] Initializing concepts cache with 0 concepts
+15:23:41.413 [INFO] Initializing specs cache with 1 specs
+15:23:41.415 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+15:23:49.254 [INFO] Initializing steps cache with 6 steps
+17:24:48.304 [INFO] Initializing concepts cache with 0 concepts
+17:24:48.310 [INFO] Initializing specs cache with 1 specs
+17:24:48.310 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+17:24:55.801 [INFO] Initializing steps cache with 6 steps
+17:45:03.124 [INFO] Spec file added / modified: C:\Gurutest\gauge-test\specs\verify_pg_home_page.spec
+17:45:03.148 [ERROR] Spec Parse failure: [ParseError] C:\Gurutest\gauge-test\specs\verify_pg_home_page.spec : line no: 1, Spec does not have any elements
+17:57:30.970 [INFO] Initializing concepts cache with 0 concepts
+17:57:31.004 [INFO] Initializing specs cache with 2 specs
+17:57:31.004 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+17:57:44.189 [INFO] Initializing steps cache with 6 steps
+17:59:10.183 [INFO] Spec file removed: C:\Gurutest\gauge-test\specs\verify_pg_home_page.spec
+17:59:10.184 [INFO] Spec file added / modified: C:\Gurutest\gauge-test\specs\verify_pg_home_page.spec
+17:59:11.521 [INFO] Spec file removed: C:\Gurutest\gauge-test\specs\verify_pg_home_page.spec
+17:59:11.521 [INFO] Spec file added / modified: C:\Gurutest\gauge-test\specs\verify_pg_home_page.spec
+17:59:41.095 [INFO] Spec file removed: C:\Gurutest\gauge-test\specs\verify_pg_home_page.spec
+17:59:41.095 [INFO] Spec file added / modified: C:\Gurutest\gauge-test\specs\verify_pg_home_page.spec
+17:59:41.260 [INFO] Spec file removed: C:\Gurutest\gauge-test\specs\verify_pg_home_page.spec
+17:59:41.260 [INFO] Spec file added / modified: C:\Gurutest\gauge-test\specs\verify_pg_home_page.spec
+17:59:43.411 [INFO] Spec file removed: C:\Gurutest\gauge-test\specs\verify_pg_home_page.spec
+17:59:43.411 [INFO] Spec file added / modified: C:\Gurutest\gauge-test\specs\verify_pg_home_page.spec
+17:59:43.411 [ERROR] Spec Parse failure: [ParseError] C:\Gurutest\gauge-test\specs\verify_pg_home_page.spec : line no: 11, Step should not be blank
+18:01:02.133 [INFO] Initializing concepts cache with 0 concepts
+18:01:02.141 [ERROR] Spec Parse failure: [ParseError] C:\Gurutest\gauge-test\specs\verify_pg_home_page.spec : line no: 11, Step should not be blank
+18:01:02.141 [INFO] Initializing specs cache with 1 specs
+18:01:02.142 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+18:01:18.519 [INFO] Initializing steps cache with 6 steps
+18:01:23.472 [INFO] Spec file removed: C:\Gurutest\gauge-test\specs\verify_pg_home_page.spec
+18:01:23.472 [INFO] Spec file added / modified: C:\Gurutest\gauge-test\specs\verify_pg_home_page.spec
+18:01:41.059 [INFO] Spec file removed: C:\Gurutest\gauge-test\specs\verify_pg_home_page.spec
+18:01:41.059 [INFO] Spec file added / modified: C:\Gurutest\gauge-test\specs\verify_pg_home_page.spec
+18:07:51.195 [INFO] Initializing concepts cache with 0 concepts
+18:07:51.258 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+18:07:51.264 [INFO] Initializing specs cache with 2 specs
+18:07:59.796 [INFO] Initializing steps cache with 10 steps
+18:15:33.385 [INFO] Initializing concepts cache with 0 concepts
+18:15:33.398 [INFO] Initializing specs cache with 2 specs
+18:15:33.398 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+18:15:41.323 [INFO] Initializing steps cache with 10 steps
+18:32:24.210 [INFO] Initializing concepts cache with 0 concepts
+18:32:24.217 [INFO] Initializing specs cache with 2 specs
+18:32:24.217 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+18:32:38.857 [INFO] Initializing steps cache with 10 steps
+18:34:09.612 [INFO] Initializing concepts cache with 0 concepts
+18:34:09.672 [INFO] Initializing specs cache with 2 specs
+18:34:09.673 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+18:34:16.831 [INFO] Initializing steps cache with 10 steps
+18:36:54.267 [INFO] Initializing concepts cache with 0 concepts
+18:36:54.273 [INFO] Initializing specs cache with 2 specs
+18:36:54.273 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+18:37:11.387 [INFO] Initializing steps cache with 10 steps
+18:41:05.639 [INFO] Initializing concepts cache with 0 concepts
+18:41:05.649 [INFO] Initializing specs cache with 2 specs
+18:41:05.649 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+18:41:13.689 [INFO] Initializing steps cache with 10 steps
+18:44:52.798 [INFO] Initializing concepts cache with 0 concepts
+18:44:52.811 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+18:44:52.814 [INFO] Initializing specs cache with 2 specs
+18:45:00.502 [INFO] Initializing steps cache with 10 steps
+19:14:33.380 [INFO] Initializing concepts cache with 0 concepts
+19:14:33.387 [INFO] Initializing specs cache with 2 specs
+19:14:33.387 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+19:14:40.809 [INFO] Initializing steps cache with 10 steps
+19:15:37.649 [INFO] Initializing concepts cache with 0 concepts
+19:15:37.663 [INFO] Initializing specs cache with 2 specs
+19:15:37.663 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+19:15:45.348 [INFO] Initializing steps cache with 10 steps
+19:16:26.916 [INFO] Initializing concepts cache with 0 concepts
+19:16:26.934 [INFO] Initializing specs cache with 2 specs
+19:16:26.934 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+19:16:34.463 [INFO] Initializing steps cache with 10 steps
+19:20:19.223 [INFO] Initializing concepts cache with 0 concepts
+19:20:19.230 [INFO] Initializing specs cache with 2 specs
+19:20:19.230 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+19:20:26.968 [INFO] Initializing steps cache with 10 steps
+19:21:21.555 [INFO] Initializing concepts cache with 0 concepts
+19:21:21.595 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+19:21:21.596 [INFO] Initializing specs cache with 2 specs
+19:21:29.255 [INFO] Initializing steps cache with 10 steps
+19:25:21.507 [INFO] Spec file added / modified: C:\Gurutest\gauge-test\specs\gmail_invalid_login.spec
+19:25:21.534 [ERROR] Spec Parse failure: [ParseError] C:\Gurutest\gauge-test\specs\gmail_invalid_login.spec : line no: 1, Spec does not have any elements
+19:27:05.109 [INFO] Initializing concepts cache with 0 concepts
+19:27:05.116 [INFO] Initializing specs cache with 3 specs
+19:27:05.116 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+19:27:18.587 [INFO] Initializing steps cache with 10 steps
+19:27:50.934 [INFO] Spec file removed: C:\Gurutest\gauge-test\specs\gmail_invalid_login.spec
+19:27:50.934 [INFO] Spec file added / modified: C:\Gurutest\gauge-test\specs\gmail_invalid_login.spec
+19:28:02.511 [INFO] Spec file removed: C:\Gurutest\gauge-test\specs\gmail_invalid_login.spec
+19:28:02.511 [INFO] Spec file added / modified: C:\Gurutest\gauge-test\specs\gmail_invalid_login.spec
+19:28:14.040 [INFO] Spec file removed: C:\Gurutest\gauge-test\specs\gmail_invalid_login.spec
+19:28:14.040 [INFO] Spec file added / modified: C:\Gurutest\gauge-test\specs\gmail_invalid_login.spec
+19:29:09.835 [INFO] Spec file removed: C:\Gurutest\gauge-test\specs\gmail_invalid_login.spec
+19:29:09.835 [INFO] Spec file added / modified: C:\Gurutest\gauge-test\specs\gmail_invalid_login.spec
+19:29:19.545 [INFO] Spec file removed: C:\Gurutest\gauge-test\specs\gmail_invalid_login.spec
+19:29:19.545 [INFO] Spec file added / modified: C:\Gurutest\gauge-test\specs\gmail_invalid_login.spec
+19:46:28.305 [INFO] Initializing concepts cache with 0 concepts
+19:46:28.342 [INFO] Initializing specs cache with 3 specs
+19:46:28.343 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+19:46:35.959 [INFO] Initializing steps cache with 20 steps
+19:47:11.226 [INFO] Spec file removed: C:\Gurutest\gauge-test\specs\gmail_invalid_login.spec
+19:47:11.226 [INFO] Spec file added / modified: C:\Gurutest\gauge-test\specs\gmail_invalid_login.spec
+19:47:13.743 [INFO] Initializing concepts cache with 0 concepts
+19:47:13.762 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+19:47:13.766 [INFO] Initializing specs cache with 3 specs
+19:47:21.344 [INFO] Initializing steps cache with 20 steps
+19:47:47.834 [INFO] Spec file removed: C:\Gurutest\gauge-test\specs\gmail_invalid_login.spec
+19:47:47.834 [INFO] Spec file added / modified: C:\Gurutest\gauge-test\specs\gmail_invalid_login.spec
+19:57:58.372 [INFO] Spec file removed: C:\Gurutest\gauge-test\specs\gmail_invalid_login.spec
+19:57:58.372 [INFO] Spec file added / modified: C:\Gurutest\gauge-test\specs\gmail_invalid_login.spec
+19:58:07.483 [INFO] Spec file removed: C:\Gurutest\gauge-test\specs\gmail_invalid_login.spec
+19:58:07.483 [INFO] Spec file added / modified: C:\Gurutest\gauge-test\specs\gmail_invalid_login.spec
+19:58:23.351 [INFO] Spec file removed: C:\Gurutest\gauge-test\specs\gmail_invalid_login.spec
+19:58:23.351 [INFO] Spec file added / modified: C:\Gurutest\gauge-test\specs\gmail_invalid_login.spec
+19:59:37.582 [INFO] Initializing concepts cache with 0 concepts
+19:59:37.596 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+19:59:37.600 [INFO] Initializing specs cache with 3 specs
+19:59:45.341 [INFO] Initializing steps cache with 22 steps
+20:00:35.552 [INFO] Initializing concepts cache with 0 concepts
+20:00:35.559 [INFO] Initializing specs cache with 3 specs
+20:00:35.559 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+20:00:42.981 [INFO] Initializing steps cache with 22 steps
+20:04:22.414 [INFO] Initializing concepts cache with 0 concepts
+20:04:22.421 [INFO] Initializing specs cache with 3 specs
+20:04:22.421 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+20:04:29.972 [INFO] Initializing steps cache with 22 steps
+20:06:55.305 [INFO] Initializing concepts cache with 0 concepts
+20:06:55.312 [INFO] Initializing specs cache with 3 specs
+20:06:55.312 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+20:07:03.156 [INFO] Initializing steps cache with 22 steps
+20:12:01.294 [INFO] Initializing concepts cache with 0 concepts
+20:12:01.300 [INFO] Initializing specs cache with 3 specs
+20:12:01.300 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+20:12:08.697 [INFO] Initializing steps cache with 22 steps
+20:17:56.317 [INFO] Initializing concepts cache with 0 concepts
+20:17:56.335 [INFO] Initializing specs cache with 3 specs
+20:17:56.335 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+20:18:03.971 [INFO] Initializing steps cache with 22 steps
+20:18:49.369 [INFO] Initializing concepts cache with 0 concepts
+20:18:49.375 [INFO] Initializing specs cache with 3 specs
+20:18:49.375 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+20:18:57.034 [INFO] Initializing steps cache with 22 steps
+20:22:26.212 [INFO] Initializing concepts cache with 0 concepts
+20:22:26.220 [INFO] Initializing specs cache with 3 specs
+20:22:26.220 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+20:22:33.767 [INFO] Initializing steps cache with 22 steps
+20:29:31.645 [INFO] Initializing concepts cache with 0 concepts
+20:29:31.653 [INFO] Initializing specs cache with 3 specs
+20:29:31.656 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+20:29:39.327 [INFO] Initializing steps cache with 22 steps
+20:31:40.419 [INFO] Initializing concepts cache with 0 concepts
+20:31:40.450 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+20:31:40.453 [INFO] Initializing specs cache with 3 specs
+20:31:47.946 [INFO] Initializing steps cache with 22 steps
+20:33:14.462 [INFO] Initializing concepts cache with 0 concepts
+20:33:14.470 [INFO] Initializing specs cache with 3 specs
+20:33:14.470 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+20:33:22.240 [INFO] Initializing steps cache with 22 steps
+20:34:52.970 [INFO] Initializing concepts cache with 0 concepts
+20:34:53.001 [INFO] Initializing specs cache with 3 specs
+20:34:53.006 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+20:35:00.484 [INFO] Initializing steps cache with 22 steps
+20:36:12.691 [INFO] Initializing concepts cache with 0 concepts
+20:36:12.698 [INFO] Initializing specs cache with 3 specs
+20:36:12.698 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+20:36:20.157 [INFO] Initializing steps cache with 22 steps
+20:37:55.515 [INFO] Initializing concepts cache with 0 concepts
+20:37:55.524 [INFO] Initializing specs cache with 3 specs
+20:37:55.525 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+20:38:03.420 [INFO] Initializing steps cache with 22 steps
+20:45:56.478 [INFO] Spec file removed: C:\Gurutest\gauge-test\specs\verify_pg_home_page.spec
+20:46:25.219 [INFO] Initializing concepts cache with 0 concepts
+20:46:25.231 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+20:46:25.234 [INFO] Initializing specs cache with 2 specs
+20:46:32.803 [INFO] Initializing steps cache with 20 steps
+20:52:27.389 [INFO] Initializing concepts cache with 0 concepts
+20:52:27.403 [INFO] Initializing specs cache with 2 specs
+20:52:27.403 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+20:52:34.799 [INFO] Initializing steps cache with 20 steps
+20:55:39.612 [INFO] Initializing concepts cache with 0 concepts
+20:55:39.620 [INFO] Initializing specs cache with 2 specs
+20:55:39.621 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+20:55:47.384 [INFO] Initializing steps cache with 20 steps
+20:57:23.492 [INFO] Initializing concepts cache with 0 concepts
+20:57:23.499 [INFO] Initializing specs cache with 2 specs
+20:57:23.499 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+20:57:31.118 [INFO] Initializing steps cache with 20 steps
+21:03:20.852 [INFO] Initializing concepts cache with 0 concepts
+21:03:20.864 [INFO] Initializing specs cache with 2 specs
+21:03:20.865 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+21:03:28.284 [INFO] Initializing steps cache with 20 steps
+22:21:06.786 [INFO] Initializing concepts cache with 0 concepts
+22:21:06.799 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+22:21:07.186 [INFO] Initializing specs cache with 2 specs
+22:21:37.189 [ERROR] Error response from runner on getStepNamesRequest: Request Timeout
+22:21:37.189 [INFO] Initializing steps cache with 9 steps
+22:43:26.434 [INFO] Initializing concepts cache with 0 concepts
+22:43:26.443 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+22:43:26.448 [INFO] Initializing specs cache with 2 specs
+22:43:42.417 [INFO] Initializing steps cache with 9 steps
+22:45:44.441 [INFO] Initializing concepts cache with 0 concepts
+22:45:44.446 [INFO] Initializing specs cache with 2 specs
+22:45:44.446 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+22:45:49.584 [INFO] Initializing steps cache with 9 steps
+22:48:38.965 [INFO] Initializing concepts cache with 0 concepts
+22:48:38.969 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+22:48:38.973 [INFO] Initializing specs cache with 2 specs
+22:48:45.580 [INFO] Initializing steps cache with 9 steps
+22:49:03.320 [INFO] Initializing concepts cache with 0 concepts
+22:49:03.325 [INFO] Initializing specs cache with 2 specs
+22:49:03.325 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+22:49:08.379 [INFO] Initializing steps cache with 9 steps
+22:50:27.782 [INFO] Initializing concepts cache with 0 concepts
+22:50:27.787 [INFO] Initializing specs cache with 2 specs
+22:50:27.787 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+22:50:32.731 [INFO] Initializing steps cache with 9 steps
+22:54:04.035 [INFO] Initializing concepts cache with 0 concepts
+22:54:04.049 [INFO] Watching directory: C:\Gurutest\gauge-test\specs
+22:54:04.053 [INFO] Initializing specs cache with 2 specs
+22:54:09.539 [INFO] Initializing steps cache with 20 steps

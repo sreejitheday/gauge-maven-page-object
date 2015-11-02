@@ -1,0 +1,4 @@
+loginButton: "id=signIn"
+nextButton: "id=next"
+userNameTextFiled: "id=Email"
+passwordTextField: "name=Passwd"
