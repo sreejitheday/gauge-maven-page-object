@@ -1,32 +1,29 @@
 package seleniumFrameWork;
 
-import com.thoughtworks.gauge.AfterSuite;
-import com.thoughtworks.gauge.BeforeSuite;
+import com.thoughtworks.gauge.AfterScenario;
+import com.thoughtworks.gauge.BeforeScenario;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class DriverFactory {
-    private static final String CHROME = "chrome";
 
     public static WebDriver getDriver() {
-        return driver;
+        return WebDriverPool.getDriver();
     }
 
-    private static WebDriver driver;
-
-    @BeforeSuite
+    @BeforeScenario
     public void Setup() {
-        String browser = System.getenv("browser.name");
-        if (browser.toLowerCase().equals(CHROME)) {
-            driver = new ChromeDriver();
-        } else {
-            driver = new FirefoxDriver();
-        }
+
+        String browserName = System.getenv("browser.name");
+
+        WebDriver driver = LocalDriverFactory.createInstance(browserName);
+        WebDriverPool.setWebDriver(driver);
     }
 
-    @AfterSuite
+    @AfterScenario
     public void TearDown() {
+
+        WebDriver driver = WebDriverPool.getDriver();
         driver.close();
+        driver.quit();
     }
 }
